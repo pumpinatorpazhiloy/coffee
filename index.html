@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cafe</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css?_v=20231007220342" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231007220342">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">Bean Scene</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".hero" href="" class="menu__link">Home</a></li>
+							<li class="menu__item"><a data-goto=".enjoy" href="" class="menu__link">Menu</a></li>
+							<li class="menu__item"><a data-goto=".different" href="" class="menu__link">About Us</a></li>
+							<li class="menu__item"><a data-goto=".subscribe" href="" class="menu__link">Contact</a></li>
+						</ul>
+						<!-- here -->
+					</nav>
+				</div>
+				<div data-da=".menu__body, 767.98" class="header__autorization autorization">
+					<div class="autorization__item">
+						<a href="#" class="autorization__link">Sign In</a>
+					</div>
+					<div class="autorization__item">
+						<a href="#" class="autorization__link autorization__link--reg">SingUp</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<div class="hero__label">
+							<p>We’ve got your morning covered with</p>
+						</div>
+						<div class="hero__title">
+							<h1>Coffee</h1>
+						</div>
+						<div class="hero__subtitle">
+							<p>It is best to start your day with a cup of coffee. Discover the best flavours coffee you will ever have. We provide the best for our customers.</p>
+						</div>
+						<a href="#" class="hero__button button"><span>Order Now</span></a>
+					</div>
+				</div>
+				<div class="hero__bg">
+					<picture><source srcset="img/bg.webp" type="image/webp"><img src="img/bg.jpg" alt="Background"></picture>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="bestcoffe">
+				<div class="bestcoffe__container">
+					<div class="bestcoffe__text">
+						<div class="block-header">
+							<h2 class="block-header__title">Discover the best coffee</h2>
+							<div class="block-header__subtitle">Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than others you have ever tasted.</div>
+						</div>
+						<a href="#" class="bestcoffe__button button"><span>Learn More</span></a>
+					</div>
+					<div class="bestcoffe__image">
+						<picture><source srcset="img/cup.webp" type="image/webp"><img src="img/cup.png" alt="Cup of coffe"></picture>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="enjoy">
+				<div class="enjoy__container">
+					<div class="enjoy__text text">
+						<div class="block-header block-header--center">
+							<h2 class="block-header__title">Enjoy a new blend of coffee style</h2>
+							<div class="block-header__subtitle">
+								<p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+							</div>
+						</div>
+					</div>
+					<div class="enjoy__items">
+						<article class="enjoy__item item-enjoy">
+							<div class="item-enjoy__image">
+								<a href="#"><picture><source srcset="img/items/01.webp" type="image/webp"><img src="img/items/01.png" alt="Cappuccino"></picture></a>
+							</div>
+							<div class="item-enjoy__title">
+								<h4>
+									<a href="#">Cappuccino</a>
+								</h4>
+							</div>
+							<div class="item-enjoy__composition">Coffee 50% | Milk 50%</div>
+							<div class="item-enjoy__price">$8.50</div>
+							<button class="item-enjoy__button button" type="button"><span>Order Now</span></button>
+						</article>
+						<article class="enjoy__item item-enjoy">
+							<div class="item-enjoy__image">
+								<a href="#"><picture><source srcset="img/items/02.webp" type="image/webp"><img src="img/items/02.png" alt="Chai Latte"></picture></a>
+							</div>
+							<div class="item-enjoy__title">
+								<h4>
+									<a href="#">Chai Latte</a>
+								</h4>
+							</div>
+							<div class="item-enjoy__composition">Coffee 50% | Milk 50%</div>
+							<div class="item-enjoy__price">$8.50</div>
+							<button class="item-enjoy__button button" type="button"><span>Order Now</span></button>
+						</article>
+						<article class="enjoy__item item-enjoy">
+							<div class="item-enjoy__image">
+								<a href="#"><picture><source srcset="img/items/03.webp" type="image/webp"><img src="img/items/03.png" alt="Macchiato"></picture></a>
+							</div>
+							<div class="item-enjoy__title">
+								<h4>
+									<a href="#">Macchiato</a>
+								</h4>
+							</div>
+							<div class="item-enjoy__composition">Coffee 50% | Milk 50%</div>
+							<div class="item-enjoy__price">$8.50</div>
+							<button class="item-enjoy__button button" type="button"><span>Order Now</span></button>
+						</article>
+						<article class="enjoy__item item-enjoy">
+							<div class="item-enjoy__image">
+								<a href="#"><picture><source srcset="img/items/04.webp" type="image/webp"><img src="img/items/04.png" alt="Expresso"></picture></a>
+							</div>
+							<div class="item-enjoy__title">
+								<h4>
+									<a href="#">Expresso</a>
+								</h4>
+							</div>
+							<div class="item-enjoy__composition">Coffee 50% | Milk 50%</div>
+							<div class="item-enjoy__price">$8.50</div>
+							<button class="item-enjoy__button button"><span>Order Now</span></button>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="different">
+				<div class="different__container">
+					<div class="different__text text">
+						<div class="block-header block-header--center">
+							<h2 class="block-header__title">Why are we different?</h2>
+							<div class="block-header__subtitle">
+								<p>We don’t just make your coffee, we make your day!</p>
+							</div>
+						</div>
+					</div>
+					<div class="different__items">
+						<div class="different__item item-different">
+							<div class="item-different__icon">
+								<picture><source srcset="img/different/01.webp" type="image/webp"><img src="img/different/01.png" alt="Supreme Beans"></picture>
+							</div>
+							<div class="item-different__title">
+								<h4>Supreme Beans</h4>
+							</div>
+							<div class="item-different__subtitle">
+								<p>Beans that provides
+									great taste</p>
+							</div>
+						</div>
+						<div class="different__item item-different">
+							<div class="item-different__icon">
+								<picture><source srcset="img/different/02.webp" type="image/webp"><img src="img/different/02.png" alt="High Quality"></picture>
+							</div>
+							<div class="item-different__title">
+								<h4>High Quality</h4>
+							</div>
+							<div class="item-different__subtitle">
+								<p>We provide the highest quality</p>
+							</div>
+						</div>
+						<div class="different__item item-different">
+							<div class="item-different__icon">
+								<picture><source srcset="img/different/03.webp" type="image/webp"><img src="img/different/03.png" alt="Extraordinary"></picture>
+							</div>
+							<div class="item-different__title">
+								<h4>Extraordinary</h4>
+							</div>
+							<div class="item-different__subtitle">
+								<p>Coffee like you have never tasted</p>
+							</div>
+						</div>
+						<div class="different__item different__item-another item-different">
+							<div class="item-different__icon">
+								<picture><source srcset="img/different/04.webp" type="image/webp"><img src="img/different/04.png" alt="Affordable Price"></picture>
+							</div>
+							<div class="item-different__title">
+								<h4>Affordable Price</h4>
+							</div>
+							<div class="item-different__subtitle">
+								<p>Our Coffee prices are easy to afford</p>
+							</div>
+						</div>
+					</div>
+					<div class="different__sectext text">
+						<div class="block-header block-header--center">
+							<div class="block-header__subtitle">
+								<p>Great ideas start with great coffee, Lets help you achieve that</p>
+							</div>
+							<h2 class="block-header__title">Get started today.</h2>
+						</div>
+						<button class="different__button button"><span>Join Us</span></button>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="amazing">
+				<div class="amazing__container">
+					<div class="amazing__text">
+						<div class="block-header">
+							<h2 class="block-header__title block-header__title--white">Get a chance to have an Amazing morning</h2>
+							<div class="block-header__subtitle block-header__subtitle--white">We are giving you are one time opportunity to experience a better life with coffee.</div>
+						</div>
+						<button class="amazing__button button"><span>Order Now</span></button>
+					</div>
+					<div class="amazing__image">
+						<picture><source srcset="img/get_chance/cup_coffee.webp" type="image/webp"><img src="img/get_chance/cup_coffee.png" alt="Cup of coffe"></picture>
+					</div>
+				</div>
+				<div class="amazing__bg">
+					<picture><source srcset="img/get_chance/bg.webp" type="image/webp"><img src="img/get_chance/bg.png" alt="Background"></picture>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="perfection">
+				<div class="perfection__container">
+					<div class="perfection-block-header block-header block-header--center">
+						<h2 class="block-header__title">Our coffee perfection feedback</h2>
+						<div class="block-header__subtitle">Our customers has amazing things to say about us</div>
+					</div>
+					<div class="perfection__body">
+						<div class="perfection__slider slider-perfection swiper">
+							<div class="perfection__wrapper swiper-wrapper">
+								<div class="perfection__slide slide-perfection swiper-slide">
+									<div class="slide-perfection__text">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....</p>
+									</div>
+									<div class="slide-perfection__title">
+										<h3>Jonny Thomas</h3>
+									</div>
+									<div class="slide-perfection__work">
+										<p>Project Manager</p>
+									</div>
+									<div class="slide-perfection__image">
+										<picture><source srcset="img/perfection/01.webp" type="image/webp"><img src="img/perfection/01.jpg" alt="Photo"></picture>
+									</div>
+								</div>
+								<div class="perfection__slide slide-perfection swiper-slide">
+									<div class="slide-perfection__text">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....</p>
+									</div>
+									<div class="slide-perfection__title">
+										<h3>Jonny Thomas</h3>
+									</div>
+									<div class="slide-perfection__work">
+										<p>Project Manager</p>
+									</div>
+									<div class="slide-perfection__image">
+										<picture><source srcset="img/perfection/01.webp" type="image/webp"><img src="img/perfection/01.jpg" alt="Photo"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="perfection__arrow perfection__arrow--left"></button>
+						<button type="button" class="perfection__arrow perfection__arrow--right"></button>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe-block-header block-header block-header--center block-header__title--white">
+						<h2 class="block-header__title block-header__title--white">Subscribe to get the Latest News</h2>
+						<div class="block-header__subtitle block-header__subtitle--white">
+							<p>Don’t miss out on our latest news, updates, tips and special offers</p>
+						</div>
+					</div>
+					<form action="#" class="subscribe__form">
+						<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Enter your mail" class="subscribe__input">
+						<button type="button" class="subscribe__button"><span>Suscribe</span></button>
+					</form>
+				</div>
+				<div class="subscribe__bg">
+					<picture><source srcset="img/subscribe//bg.webp" type="image/webp"><img src="img/subscribe//bg.png" alt="Background"></picture>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					<div class="footer__logo">
+						<h2><a href="#">Bean Scene</a></h2>
+					</div>
+					<div class="footer__text">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					</div>
+					<div class="footer__social social">
+						<ul class="social__item">
+							<li class="social__link">
+								<a href="https://www.facebook.com/">
+									<img src="img/social/01.svg" alt="Facebook">
+								</a>
+							</li>
+							<li class="social__link">
+								<a href="https://www.instagram.com/" alt="Instagram">
+									<img src="img/social/02.svg" alt="Instagram">
+								</a>
+							</li>
+							<li class="social__link">
+								<a href="https://www.youtube.com/">
+									<img src="img/social/03.svg" alt="Youtube">
+								</a>
+							</li>
+							<li class="social__link">
+								<a href="https://www.twitter.com/">
+									<img src="img/social/04.svg" alt="Twitter">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__menu menu-footer">
+					<div data-spollers="991" class="menu-footer__spollers">
+						<details class="menu-footer__block">
+							<summary class="menu-footer__title">About</summary>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__link">
+									<a href="#">Menu</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">Features</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">News & Blogs</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">Help & Supports</a>
+								</li>
+							</ul>
+						</details>
+						<details class="menu-footer__block">
+							<summary class="menu-footer__title">Company</summary>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__link">
+									<a href="#">How we work</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">Terms of service</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">Pricing</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">FAQ</a>
+								</li>
+							</ul>
+						</details>
+						<details class="menu-footer__block">
+							<summary class="menu-footer__title">Contact Us</summary>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__link">
+									<a href="#">Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="tel: +12029182132">+1 202-918-2132</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="mailto: beanscene@mail.com">beanscene@mail.com</a>
+								</li>
+								<li class="menu-footer__link">
+									<a href="#">www.beanscene.com</a>
+								</li>
+							</ul>
+						</details>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bg">
+				<picture><source srcset="img/footer/b2.webp" type="image/webp"><img src="img/footer/b2.png" alt="Background"></picture>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js?_v=20231007220342" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js?_v=20231007220342" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="js/app.min.js?_v=20231007220342"></script>
+</body>
+
+</html>
